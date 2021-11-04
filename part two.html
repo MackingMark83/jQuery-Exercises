@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+ 
+ <style>
+.container {
+    width: 100%;
+    background: #EEE;
+    margin: 10px auto;
+    position: relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.block {
+    
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    text-align: center;
+}
+    </style>
+
+
+</head>
+<body>
+     <h1>Movie App</h1>
+
+    
+    <form action="" method="get">
+        <input type="text" placeholder="Title" id="title">
+        <input type="number" required  min="0" max="10" placeholder="Rating" id="rating">
+        <button type="submit">Submit</button>
+    </form>
+   <div class="container">
+    <div id="first" class="block"></div> 
+    <div id="second" class="block"></div>
+    <div id="third" class="block"></div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="part two.js"></script> 
+</body>
+</html>
